@@ -18,6 +18,7 @@
 2 [小白教程](https://diannaobos.com/post/470.html)
 ### FRP简单使用实例
 1. 修改 frps.ini 文件，这里使用了最简化的配置：
+
 ```ini
 #frpc.ini
 [common]

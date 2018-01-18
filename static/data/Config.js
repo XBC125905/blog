@@ -21,19 +21,19 @@ const Config = {
       type: 'JavaScript'
     },
     {
-<<<<<<< HEAD:static/data/Config.js
       title: '个人博客',
       imgsrc: './static/data/img/blog.png',
       src: './static/data/md/blog.md',
       time: '2017年6月1日',
       abstract: '个人博客（Blog）是一个基于Vue.js开发的个人主页。用于记录个人感兴趣的技术，发布自己的作品等等。该应用做了全局自适应...',
-=======
+      type: 'JavaScript'
+    },
+    {
       title: 'How I Rest From Work2',
-      imgsrc: './static/assets/img/i-rest.jpg',
-      src: require('./2.md'),
+      imgsrc: './static/data/img/i-rest.jpg',
+      src: './static/data/md/2.md',
       time: '2017, Sep 12   — ',
       abstract: 'Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep...',
->>>>>>> parent of 477d1f6e... 修改README文件:src/data/Config.js
       type: 'JavaScript'
     },
     {
