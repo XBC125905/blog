@@ -3,7 +3,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-import Config from '../data/Config'
+//import Config from '../data/Config'
 
 function getTypes() {
   let types=['all'];

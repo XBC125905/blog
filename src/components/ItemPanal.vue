@@ -39,8 +39,17 @@
         setMd: 'setMd'
       }),
       showMd: function (isShow, src) {
+        let that = this
         if (isShow) {
-          this.setMd(src)
+          this.$ajax({
+            method: 'get',
+            url: src
+          }).then(function (res) {
+            that.setMd(that.$marked(res.data))
+          }).catch(function (error) {
+            that.setMd(that.$marked('没有相关内容！'))
+          })
+          //this.setMd(src)
           this.setMdDisplay(true)
           this.setContentboxDisplay(false)
         } else {
