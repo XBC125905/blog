@@ -18,7 +18,7 @@
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
-      <p>2017 &copy; 小白菜</p>
+      <p>2017-2018 &copy; 小白菜</p>
     </div>
   </footer> <!-- End Footer -->
 </template>

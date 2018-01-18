@@ -8,7 +8,7 @@ import App from './App'
 import router from './router'
 import store from './vuex/store'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 /* eslint-disable no-new */
 new Vue({
